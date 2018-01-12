@@ -1,0 +1,31 @@
+Toobler
+	Comments 12	- Delete    (link)
+TCS
+	Comments 10	- Delete
+CTS
+	Comments 78	- Delete
+Cubet
+	Comments 1	- Delete
+Xeron
+	Comments 40	- Delete
+Wipro
+	Comments 100	- Delete
+Calpine
+	Comments 154	- Delete
+
+
+------<ul>
+	<li>
+		<h3>Toobler</h3>
+		<div class="item">	
+			Comment<span class="item_12">12</span>
+			<a href="#">Delete</a>
+		</div>
+	</li>
+
+
+item_12
+	RegExp -> number only -> 1 decrease
+
+	11 
+	item_11 -> 
