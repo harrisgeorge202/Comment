@@ -1,4 +1,11 @@
 language: node_js
 node_js:
-  - "iojs"
-  - "7"
+- iojs
+- '7'
+deploy:
+  provider: heroku
+  api_key:
+    secure: kN+ba4xjxB72VBJbPWnrePzAqWaD0hyOazblcsFZRIUg+yTLKx1DefZxWFnR1aAzPmxDvzXple5OlUKBM0k/MIH3I7/scfP+uQOQMdhJmA+tQAsOBVg1gi9mUT9x3PRI/+7j4olAJWdJ+jFuLULFKfGxzAA+BSMnP7uPh+DILQem/itxlOVIgC5A8mCEipQp8p0y86WrcEYqDxSnz4ybTTzGI71H2V8U9EGkeo4BZDUVER2bLE4Pd5U7PNm7oDlZFMz819okVK0LtBJAL8X7La7FY8OBfN9Av4ql9/dBaS4TQBxeJjKOFPZvc/As1CR7UpvF2xsBpu5JevyTfSRZjn3EOXnjs8GSguBFHEN3TT8b8XxwzAhoWSsBN1v+UhLluQuCkIHK3LDeS6uhvFqcix2Tdf9zbSpDbqAzjrj82Lk+TslPA9eVqLU6ZXYHyV5kIm4URdBQ6Fp/eaIF6BoVgDGM/68hGELKOQRMAziPETdHiaGdZcWwRvRloae1dfkX7LpjzFJfy9SUVGEM+fs1wmEwa08SMUVVDQ+G/qjV5Bf/mPHO4jJ+Cng7/WDW0hpul4HBJ+FppTJNjYY7KSLRr9z9eOI0und+WdzC6gNNx4H9Cy5mPH0po8hyASsjjs4mMa7n+b8WMw337/7HtFyyMYzAtsoN8eSCXiFH63eoh/M=
+  app: comment202
+  on:
+    repo: harrisgeorge202/Comment
